@@ -1,0 +1,708 @@
+@charset "utf-8";
+/* CSS Document */
+BODY {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-TOP: 0px;
+	background-color: #333333;
+}
+H1 {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:16px;/*463E3E*/
+	color: #FFFFFF;/*#D10E02;*/
+	BORDER: none;
+	text-align : left;
+	vertical-align : top;
+	padding-left : 20px;
+	padding-right : 20px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #5A632A;/*#878D64*/
+}
+H2 {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;/*463E3E*/
+	color: #333;/*#D10E02;*/
+	BORDER: none;
+	text-align : left;
+	vertical-align : top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left : 20px;
+	padding-right : 20px;
+	background-color: #CCC;/*#878D64*/
+}
+HR {
+	border:#5A632A;
+	border-style: solid;
+	border-width: 1px;
+}
+.texteN1G {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : center;
+	padding-left : 20px;
+	padding-right : 5px;
+	text-align : justify;
+	background-color: #CBD966; /*B4C05A*/
+	line-height : 40px;
+	display : block;
+}
+.texteN1b {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : top;
+	padding-left : 20px;
+	padding-right : 20px;
+	text-align : justify;
+	/*line-height : 235px;
+	display : block;*/
+}
+.texteN1 {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : top;
+	padding-left : 20px;
+	padding-right : 20px;
+	text-align : justify;
+	/*line-height : 235px;
+	display : block;*/
+}
+.texteN1 a {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #302B2B;
+	background-color: #B4C05A;
+	BORDER: none;
+	vertical-align : top;
+	text-align : justify;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+.texteN1 a:hover {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color: #FFD93B;
+	BORDER: none;
+	vertical-align : top;
+	text-align : justify;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+.texteN1-milieu {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : middle;
+	padding-left : 10px;
+	padding-right : 0px;
+	text-align : justify;	/*line-height : 235px;
+	display : block;*/
+}
+.texteCommentaire {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #5A632A;
+	BORDER: none;
+	vertical-align : center;
+	padding-right : 5px;
+	text-align : center;
+}
+.texteCommentaire a {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #5A632A;
+	BORDER: none;
+	vertical-align : center;
+	padding-right : 5px;
+	text-align : center;
+}
+.texteCommentaire a:hover {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #FFD93B;
+	BORDER: none;
+	vertical-align : center;
+	padding-right : 5px;
+	text-align : center;
+}
+.texteSignature {
+	text-decoration: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : top;
+	padding-left : 20px;
+	padding-right : 20px;
+	text-align : right;	/*line-height : 235px;
+	display : block;*/
+}
+.FondVert {
+	text-decoration: none;
+	/*font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : center;
+	padding-left : 5px;
+	padding-right : 5px;
+	text-align : justify;*/
+	background-color: #CBD966; /*B4C05A*/
+	/*line-height : 40px;
+	display : block;*/
+}
+td.menu {
+	line-height : 40px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #FFFFFF;
+	BORDER: none;
+	vertical-align : middle;
+	background-image:url(../../images/menu/fond_menu_clair.gif);
+	background-repeat : repeat-x;
+	text-align : center;
+	display : block;
+	font-weight : bold;
+	white-space : nowrap;
+	padding : 0;
+	margin : 0;
+}
+td.menu a {
+	line-height : 40px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #FFFFFF;
+	BORDER: none;
+	vertical-align : middle;
+	background-image:url(../../images/menu/fond_menu_clair.gif);
+	background-repeat : repeat-x;
+	text-align : center;
+	display : block;
+	font-weight : bold;
+	white-space : nowrap;
+	padding : 0;
+	margin : 0;
+}
+td.menu a:hover {
+	line-height : 40px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #FFD93B;
+	BORDER: none;
+	vertical-align : middle;
+	background-image:url(../../images/menu/fond_menu_fonce.gif);
+	background-repeat : repeat-x;
+	text-align : center;
+	display : block;
+	font-weight : bold;
+	white-space : nowrap;
+	padding : 0;
+	margin : 0;
+}
+td.menuHover {
+	line-height : 40px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #FFD93B;
+	BORDER: none;
+	vertical-align : middle;
+	background-image:url(../../images/menu/fond_menu_fonce.gif);
+	background-repeat : repeat-x;
+	text-align : center;
+	display : block;
+	font-weight : bold;
+	white-space : nowrap;
+	padding : 0;
+	margin : 0;
+}
+td.menuHover a {
+	line-height : 40px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #FFD93B;
+	BORDER: none;
+	vertical-align : middle;
+	background-image:url(../../images/menu/fond_menu_fonce.gif);
+	background-repeat : repeat-x;
+	text-align : center;
+	display : block;
+	font-weight : bold;
+	white-space : nowrap;
+	padding : 0;
+	margin : 0;
+}
+td.menuHover a:hover {
+	line-height : 40px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #FFD93B;
+	BORDER: none;
+	vertical-align : middle;
+	background-image:url(../../images/menu/fond_menu_fonce.gif);
+	background-repeat : repeat-x;
+	text-align : center;
+	display : block;
+	font-weight : bold;
+	white-space : nowrap;
+	padding : 0;
+	margin : 0;
+}
+.sous_menu {
+	line-height : 30px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #fff;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	white-space : nowrap;
+	text-align : center;
+	vertical-align : middle;
+	font-size:11px;
+	background: #707746;
+	/*background: #5A632A;*/
+	/*background-image:url(../../images/menu/fond_menu_fonce.gif);*/
+	background-repeat : repeat-x;
+	text-decoration:none;
+}
+.sous_menu a {
+	line-height : 30px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #fff;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	white-space : nowrap;
+	text-align : center;
+	vertical-align : middle;
+	font-size:11px;
+	text-decoration:none;
+}
+.sous_menu a:hover {
+	line-height : 30px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*color: #CFDC44;FF9933*/
+	color: #FFD93B;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	white-space : nowrap;
+	text-align : center;
+	vertical-align : middle;
+	font-size:11px;
+	text-decoration:none;
+}
+.sous_menuhover {
+	line-height : 30px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #FF9933;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	white-space : nowrap;
+	text-align : center;
+	vertical-align : middle;
+	font-size:11px;
+	background: #ccc url(../../images/fond_smenu_over.gif) 0 0 repeat-x;
+	text-decoration:none;
+}
+.sous_menuhover a {
+	line-height : 30px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #FF9933;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	white-space : nowrap;
+	text-align : center;
+	vertical-align : middle;
+	font-size:11px;
+	text-decoration:none;
+}
+.sous_menuhover a:hover {
+	line-height : 30px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #FF9933;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	white-space : nowrap;
+	text-align : center;
+	vertical-align : middle;
+	font-size:11px;
+	text-decoration:none;
+}
+.cheminNolink {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : midle;
+	/*padding-left : 30px;*/
+	/*padding-right : 10px;*/
+	text-align : justify;
+	/*line-height : 235px;
+	display : block;*/
+}
+.chemin {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #5A632A;
+	BORDER: none;
+	vertical-align : midle;
+	padding-left : 15px;
+	/*padding-right : 10px;*/
+	text-align : justify;
+	/*line-height : 235px;
+	display : block;*/
+}
+.chemin a {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : midle;
+	/*padding-left : 30px;*/
+	/*padding-right : 10px;*/
+	/*text-align : center;
+	line-height : 235px;
+	display : block;*/
+}
+.chemin a:hover {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #5A632A;
+	BORDER: none;
+	vertical-align : midle;
+	/*padding-left : 30px;*/
+	/*padding-right : 10px;*/
+	/*text-align : center;
+	line-height : 235px;
+	display : block;*/
+}
+.imageSejour {
+	line-height : 468px;
+	width: 800px;	
+	background-image: url(../../images/plan/gite-chene-au-franc-plan-rdc.jpg);
+	background-repeat : no-repeat;
+}
+.imageSejour:hover {
+	background-image: url(../../images/plan/gite-chene-au-franc-plan-rdc-photos.jpg);
+	/*background-image: url(../../photos/gite/Dubarry-60.jpg);*/	
+}
+.footer {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #463E3E;
+	BORDER: none;
+	vertical-align : middle;
+	text-align : center;
+}
+.footer a {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #463E3E;
+	BORDER: none;
+	vertical-align : middle;
+	text-align : center;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+.footer a:hover {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #5A632A;
+	BORDER: none;
+	vertical-align : middle;
+	text-align : center;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+/* FORMULAIRES */
+.texteFormulaire {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	BORDER: none;
+	vertical-align : top;
+	padding-left : 0px;
+	padding-right : 0px;
+	text-align : justify;	/*line-height : 235px;
+	display : block;*/
+}
+.texteEtoile {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color: #BE1814;
+	BORDER: none;
+	vertical-align : top;
+	padding-left : 0px;
+	padding-right : 0px;
+	text-align : justify;	/*line-height : 235px;
+	display : block;*/
+}
+.texteErreurRouge {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #BE1814;
+	BORDER: none;
+	padding-left : 0px;
+	padding-right : 0px;
+	text-align : justify;	/*line-height : 235px;
+	display : block;*/
+}
+.texteRouge {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #BE1814;
+	BORDER: none;
+	padding-left : 0px;
+	padding-right : 0px;
+	text-align : justify;	/*line-height : 235px;
+	display : block;*/
+}
+.texteVert {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #5A632A;
+	BORDER: none;
+	padding-left : 0px;
+	padding-right : 0px;
+	text-align : justify;	/*line-height : 235px;
+	display : block;*/
+}
+table.BordureVerte {
+	border:#5A632A;
+	border-style: solid;
+	border-width: 1px;
+}
+table.BordureVerteLivre {
+	border:#5A632A;
+	border-style: solid;
+	border-width: 1px;
+	/*background:url(/images/livre_dor.jpg);*/
+	background-position:top;
+	background-repeat:no-repeat;
+}
+.BoutonFormulaire {
+	border:#5A632A;
+	border-style: solid;
+	border-width: 1px;
+	border-right-width:2px;
+	border-bottom-width:2px;
+	border-bottom-color:#333;
+	border-right-color:#333;
+	background-color: #B4C05A;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	vertical-align : middle;
+	text-align : center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	font-weight : bold;
+}
+.ChampsFormulaire {
+	border-color:#999;
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	vertical-align : middle;
+	text-align : left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.ChampsFormulaireErreur {
+	border-color:#999;
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	vertical-align : middle;
+	text-align : left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	/*background-color:#FFD8D2;*/
+	background-color: #FFF9F9;
+	border-color: #F30;	
+}
+.ChampsFormulaireGrand {
+	width:240px;
+	border-color:#999;
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	vertical-align : middle;
+	text-align : left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.ChampsFormulaireTexteGrand {
+	width:340px;
+	border-color:#999;
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	vertical-align : middle;
+	text-align : left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.ChampsFormulaireGrandErreur {
+	width:240px;
+	border-color:#999;
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	vertical-align : middle;
+	text-align : left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color:#FFF9F9;
+	border-color: #F30;
+}
+.ChampsFormulaireTexteGrandErreur  {
+	width:340px;
+	border-color:#999;
+	border-style: solid;
+	border-width: 1px;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #302B2B;
+	vertical-align : middle;
+	text-align : left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	background-color:#FFF9F9;	
+	border-color: #F30;
+}
+.petit {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #463E3E;
+	BORDER: none;
+	vertical-align : middle;
+}
+A.petit {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #463E3E;
+	BORDER: none;
+	vertical-align : middle;
+}
+A.petit:hover {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #5A632A;
+	BORDER: none;
+	vertical-align : middle;
+}
+.langue {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #463E3E;
+	BORDER: none;
+	vertical-align : middle;
+	text-align : center;
+}
+.langue a {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #463E3E;
+	BORDER: none;
+	vertical-align : middle;
+	text-align : center;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+.langue a:hover {
+	text-decoration: none;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #5A632A;
+	BORDER: none;
+	vertical-align : middle;
+	text-align : center;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+/* FIN FORMULAIRES */
